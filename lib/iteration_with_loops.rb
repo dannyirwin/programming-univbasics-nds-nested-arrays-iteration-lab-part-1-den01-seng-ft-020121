@@ -6,6 +6,7 @@ def find_even_values(src)
   row_i = 0 
   while row_i < src.length do
     p src[row_i]
+    row_i += 1
   end 
   
 end
