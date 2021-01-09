@@ -5,7 +5,11 @@ def find_even_values(src)
   
   row_i = 0 
   while row_i < src.length do
-    p src[row_i]
+    col_i = 0
+    while col_i < src[row_i] do
+      p src[row_i][col_i] if src[row_i][col_i].even?
+      col_i += 1
+    end 
     row_i += 1
   end 
   
